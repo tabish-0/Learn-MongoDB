@@ -1,0 +1,9 @@
+mongodb installation --> download it and for check terminal par likhe (mongosh)
+
+mongodb connection --> (npm i mongoose)  we have to install mongoose package, two servers h node ka server and mongodb ka server and mongoose help in connect with node server and mongodb server 
+
+schema --> ek blueprint hai jo batata hai ke data ka structure kaisa hoga. 
+
+model -->  Model MongoDB collection ke saath kaam karne ke liye hota hai. Is model ka naam "user" rakha gaya hai aur ye MongoDB mein "users" naam ke collection se map hoga
+
+crud -> create read update delete

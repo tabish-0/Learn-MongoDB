@@ -1,0 +1,45 @@
+Data Storage:
+        aisa kuch jaha pe ham sare users ki info store kar sakte hai
+        file - data.txt  --> isme sab kuch store nahi kar sakte
+
+        database -> isme sab kuch store kar sakte hai eg- photos,videos,binary etc.
+
+TYPES OF DBS :- SQL | NoSQL
+
+SQL - data ko ek roop mein rakhna - tables
+
+NoSQL - mongoDB
+
+mongoDB ek database hai jo NoSQL ke concept par kaam karti hai and object ke form mein data store karti hai
+data access and store karne ke liye we use it.
+
+
+terminologies - collections, documents, schemas, keys, models
+
+Backend -> application server(eg - Node) & database server(eg - mongoDB)
+
+application server -> sab kuch karna except data ke kaam se
+
+data wale kaam database servere karta hai
+
+
+
+DataBase server ->  
+
+DataBase -> Collection -> DataBase
+
+jo sabse badi identity hai wo hai database and uske andar jo hai wo hai collection ( for eg -> facebook ke database mein likes or username ka collection )
+
+collection me se kisi ek ka database ham dekh rahe hai to wo hai document.
+
+
+CODE
+
+-----------------------------------------------------------------
+
+
+CODE                     DATABASE
+-------------------------------------------
+mongoose.connect   ->     database create
+model create       ->     collection
+CREATE code        ->     document
